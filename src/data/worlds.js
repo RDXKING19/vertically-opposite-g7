@@ -1,0 +1,122 @@
+export const WORLDS = [
+  {
+    id: 0,
+    name: 'Crossing Basics',
+    icon: '✖️',
+    conceptFocus: 'naming',
+    range: 'Q1–Q10',
+    accent: '#22d3ee',
+    varName: '--world-0',
+    description: 'Vertex, angle names, and how two lines create four angles',
+    tier: 1,
+    boss: { name: 'Vertex Vandal', emoji: '🕶️', reward: 'Vertex Finder' }
+  },
+  {
+    id: 1,
+    name: 'Spot the Pair',
+    icon: '🔍',
+    conceptFocus: 'identify',
+    range: 'Q11–Q20',
+    accent: '#a78bfa',
+    varName: '--world-1',
+    description: 'Find vertically opposite pairs and spot bent-line traps',
+    tier: 1,
+    boss: { name: 'Bent-Line Bandit', emoji: '🦹', reward: 'Sharp Eye' }
+  },
+  {
+    id: 2,
+    name: 'Mirror Twins',
+    icon: '🪞',
+    conceptFocus: 'equal',
+    range: 'Q21–Q30',
+    accent: '#f472b6',
+    varName: '--world-2',
+    description: 'Opposite angles are equal — one-step calculations',
+    tier: 1,
+    boss: { name: 'Mirror Mimic', emoji: '👻', reward: 'Twin Spotter' }
+  },
+  {
+    id: 3,
+    name: 'Straight-Line Partners',
+    icon: '➖',
+    conceptFocus: 'supplement',
+    range: 'Q31–Q40',
+    accent: '#fb923c',
+    varName: '--world-3',
+    description: 'Adjacent angles on a straight line add up to 180°',
+    tier: 2,
+    boss: { name: 'The Line Splitter', emoji: '✂️', reward: 'Line Keeper' }
+  },
+  {
+    id: 4,
+    name: 'Full Intersection',
+    icon: '🚦',
+    conceptFocus: 'all-four',
+    range: 'Q41–Q50',
+    accent: '#4ade80',
+    varName: '--world-4',
+    description: 'Find all four angles from one, sum properties, and perpendicular crossings',
+    tier: 2,
+    boss: { name: 'Four-Corner Phantom', emoji: '🎭', reward: 'Four-Corner Champion' }
+  },
+  {
+    id: 5,
+    name: 'Reason Detective',
+    icon: '🕵️',
+    conceptFocus: 'reasoning',
+    range: 'Q51–Q60',
+    accent: '#facc15',
+    varName: '--world-5',
+    description: 'State geometric reasons clearly and catch subtle errors',
+    tier: 2,
+    boss: { name: 'Captain Guess-a-Lot', emoji: '🏴‍☠️', reward: 'Reason Master' }
+  },
+  {
+    id: 6,
+    name: 'Algebra Junction',
+    icon: '🧮',
+    conceptFocus: 'algebra',
+    range: 'Q61–Q70',
+    accent: '#38bdf8',
+    varName: '--world-6',
+    description: 'Equate algebraic angle expressions, solve for x, and evaluate angles',
+    tier: 3,
+    boss: { name: 'The Unknown X', emoji: '❓', reward: 'X-Hunter' }
+  },
+  {
+    id: 7,
+    name: 'Real-World Crossings',
+    icon: '🌉',
+    conceptFocus: 'context',
+    range: 'Q71–Q80',
+    accent: '#f87171',
+    varName: '--world-7',
+    description: 'Road intersections, scissor blades, rail junctions, and X-braces',
+    tier: 3,
+    boss: { name: 'Gridlock Giant', emoji: '🚧', reward: 'City Fixer' }
+  },
+  {
+    id: 8,
+    name: 'Three-Line Hub',
+    icon: '🕸️',
+    conceptFocus: 'three-lines',
+    range: 'Q81–Q90',
+    accent: '#c084fc',
+    varName: '--world-8',
+    description: 'Three lines crossing at a point: combine 180° lines and 360° hubs',
+    tier: 4,
+    boss: { name: 'Hub Hydra', emoji: '🐙', reward: 'Hub Hero' }
+  },
+  {
+    id: 9,
+    name: 'Grand Junction',
+    icon: '🏆',
+    conceptFocus: 'finale',
+    range: 'Q91–Q100',
+    accent: '#fde047',
+    varName: '--world-9',
+    description: 'The master challenge: mixed multi-step geometry and algebra',
+    tier: 4,
+    boss: { name: 'The Crossroads Titan', emoji: '👑', reward: 'Crossroads Champion' }
+  }
+];
